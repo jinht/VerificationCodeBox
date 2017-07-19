@@ -1,8 +1,8 @@
-## JhtVerificationCodeView
+## JhtVerificationCodeBox
 
 
 ### 先上图，看一下是否符合你的场景吧！
-<img src="https://raw.githubusercontent.com/jinht/JhtVerificationCodeView/master/ReadMEImages/Gif/VerificationCodeView.gif" width=240 height=426 />
+<img src="https://raw.githubusercontent.com/jinht/VerificationCodeBox/master/ReadMEImages/Gif/VerificationCodeView.gif" width=240 height=426 />
 
 
 ### Function Description
