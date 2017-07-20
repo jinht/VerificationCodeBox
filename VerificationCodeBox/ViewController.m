@@ -56,9 +56,9 @@
                 break;
         }
         
-        //        verificationCodeView.backgroundColor = [UIColor redColor];
-        verificationCodeView.endEditBlcok = ^(NSString *str) {
-            NSLog(@"输入的验证码为：%@", str);
+//        verificationCodeView.backgroundColor = [UIColor redColor];
+        verificationCodeView.endEditBlcok = ^(NSString *text) {
+            NSLog(@"输入的验证码为：%@", text);
         };
         
         [self.view addSubview:verificationCodeView];
