@@ -15,8 +15,8 @@
 #### 1. 简单的初始化：快速集成做这些就够了
 ```oc
 JhtVerificationCodeView *verificationCodeView = [[JhtVerificationCodeView alloc] initWithFrame:CGRectMake(40, 20 + 40 + 100 * i, CGRectGetWidth(self.view.frame) - 80, 60)];
-verificationCodeView.endEditBlcok = ^(NSString *str) {
-  NSLog(@"输入的验证码为：%@", str);
+verificationCodeView.endEditBlcok = ^(NSString *text) {
+     NSLog(@"输入的验证码为：%@", text);
 };
 ```
 
