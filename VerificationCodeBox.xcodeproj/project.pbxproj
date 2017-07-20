@@ -449,7 +449,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/VerificationCodeBox/JhtVerificationCodeViewSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.souyidai.FoxAppNew.VerificationCodeBox;
+				PRODUCT_BUNDLE_IDENTIFIER = VerificationCodeBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -466,7 +466,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/VerificationCodeBox/JhtVerificationCodeViewSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.souyidai.FoxAppNew.VerificationCodeBox;
+				PRODUCT_BUNDLE_IDENTIFIER = VerificationCodeBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -540,6 +540,7 @@
 				A52B93BC1F1F284500DBDE3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A52B93BD1F1F284500DBDE3C /* Build configuration list for PBXNativeTarget "VerificationCodeBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +549,7 @@
 				A52B93BF1F1F284500DBDE3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A52B93C01F1F284500DBDE3C /* Build configuration list for PBXNativeTarget "VerificationCodeBoxUITests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +558,7 @@
 				A52B93C21F1F284500DBDE3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
