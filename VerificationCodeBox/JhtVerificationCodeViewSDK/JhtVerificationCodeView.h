@@ -14,9 +14,9 @@
 /** 样式 */
 typedef NS_ENUM(NSUInteger, JhtVerificationCodeViewType) {
     // 普通样式
-    JhtVerificationCodeViewType_Custom,
+    VerificationCodeViewType_Custom,
     // 密码风格
-    JhtVerificationCodeViewType_Secret
+    VerificationCodeViewType_Secret
 };
 
 
@@ -89,7 +89,7 @@ extern const NSString *KVFCVInputFullNotificationKey;
 - (void)Jht_ResignFirstResponder;
 
 /** 改变所有已输入验证码的颜色（通常在输入验证码错误的情况下用到）
- *	scenes：验证码输入有误变色
+ *	color：要改变的颜色
  *	hasShakeAndClear：是否需要抖动 && 清空
  */
 - (void)changeAllAlreadyInputTextColorWithColor:(UIColor *)color hasShakeAndClear:(BOOL)hasShakeAndClear;

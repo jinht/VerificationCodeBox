@@ -36,7 +36,7 @@
                 verificationCodeView.hasBoder = YES;
                 verificationCodeView.boderColor = [UIColor redColor];
                 // 输入风格
-                verificationCodeView.codeViewType = JhtVerificationCodeViewType_Secret;
+                verificationCodeView.codeViewType = VerificationCodeViewType_Secret;
                 
                 break;
             }
@@ -47,7 +47,7 @@
                 verificationCodeView.underLineColor = [UIColor greenColor];
                 verificationCodeView.isFlashing_NoInput = YES;
                 // 输入风格
-                verificationCodeView.codeViewType = JhtVerificationCodeViewType_Custom;
+                verificationCodeView.codeViewType = VerificationCodeViewType_Custom;
                 
                 break;
             }
