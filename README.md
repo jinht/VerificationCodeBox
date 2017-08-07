@@ -24,7 +24,7 @@ verificationCodeView.endEditBlcok = ^(NSString *text) {
 ```oc
 #pragma mark optional
 /** 样式
- *  default：JhtVerificationCodeViewCustom
+ *  default：VerificationCodeViewType_Custom
  */
 @property (nonatomic, assign) JhtVerificationCodeViewType codeViewType;
 
