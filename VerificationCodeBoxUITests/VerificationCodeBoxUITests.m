@@ -3,7 +3,7 @@
 //  VerificationCodeBoxUITests
 //
 //  Created by Jht on 2017/7/19.
-//  Copyright © 2017年 Jinht. All rights reserved.
+//  Copyright © 2017年 VerificationCodeView. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

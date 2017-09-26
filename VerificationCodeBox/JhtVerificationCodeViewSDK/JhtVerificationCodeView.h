@@ -6,7 +6,7 @@
 //  CSDN博客: http://blog.csdn.net/anticipate91
 //
 //  Created by Jht on 2017/7/13.
-//  Copyright © 2017年 Jinht. All rights reserved.
+//  Copyright © 2017年 VerificationCodeView. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -27,13 +27,13 @@ extern const NSString *KVFCVInputFullNotificationKey;
 
 #pragma mark - property
 #pragma mark required
-/** 输入完成后的回调 */
-@property (nonatomic, copy) void(^endEditBlcok)(NSString *text);
+/** 回调 输入的验证码 */
+@property (nonatomic, copy) void(^editBlcok)(NSString *text);
 
 
 #pragma mark optional
 /** 样式
- *	default：JhtVerificationCodeViewCustom
+ *	default：VerificationCodeViewType_Custom
  */
 @property (nonatomic, assign) JhtVerificationCodeViewType codeViewType;
 

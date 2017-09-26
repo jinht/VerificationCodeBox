@@ -6,7 +6,7 @@
 //  CSDN博客: http://blog.csdn.net/anticipate91
 //
 //  Created by Jht on 2017/7/19.
-//  Copyright © 2017年 Jinht. All rights reserved.
+//  Copyright © 2017年 VerificationCodeView. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -57,7 +57,7 @@
         }
         
 //        verificationCodeView.backgroundColor = [UIColor redColor];
-        verificationCodeView.endEditBlcok = ^(NSString *text) {
+        verificationCodeView.editBlcok = ^(NSString *text) {
             NSLog(@"输入的验证码为：%@", text);
         };
         
