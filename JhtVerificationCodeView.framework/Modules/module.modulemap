@@ -1,0 +1,6 @@
+framework module JhtVerificationCodeView {
+  umbrella header "JhtVerificationCodeView.h"
+
+  export *
+  module * { export * }
+}

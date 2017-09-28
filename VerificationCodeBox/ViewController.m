@@ -10,7 +10,7 @@
 //
 
 #import "ViewController.h"
-#import "JhtVerificationCodeView.h"
+#import <JhtVerificationCodeView/JhtVerificationCodeView.h>
 
 @implementation ViewController
 
@@ -27,7 +27,7 @@
 /** 创建UI界面 */
 - (void)createUI {
     for (NSInteger i = 0; i < 2; i ++) {
-        JhtVerificationCodeView *verificationCodeView = [[JhtVerificationCodeView alloc] initWithFrame:CGRectMake(40, 20 + 40 + 100 * i, CGRectGetWidth(self.view.frame) - 80, 60)];
+        JhtVerificationCodeView *verificationCodeView = [[JhtVerificationCodeView alloc] initWithFrame:CGRectMake(40, 20 + 60 + 100 * i, CGRectGetWidth(self.view.frame) - 80, 60)];
         verificationCodeView.tag = 100 + i;
         
         switch (i) {

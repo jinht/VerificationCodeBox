@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5203A071F7CEA2D00272F6F /* JhtVerificationCodeView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5203A051F7CEA2200272F6F /* JhtVerificationCodeView.framework */; };
 		A52B93921F1F284400DBDE3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B93911F1F284400DBDE3C /* main.m */; };
 		A52B93951F1F284400DBDE3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B93941F1F284400DBDE3C /* AppDelegate.m */; };
 		A52B93981F1F284400DBDE3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B93971F1F284400DBDE3C /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		A52B93A01F1F284400DBDE3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52B939E1F1F284400DBDE3C /* LaunchScreen.storyboard */; };
 		A52B93AB1F1F284500DBDE3C /* VerificationCodeBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B93AA1F1F284500DBDE3C /* VerificationCodeBoxTests.m */; };
 		A52B93B61F1F284500DBDE3C /* VerificationCodeBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B93B51F1F284500DBDE3C /* VerificationCodeBoxUITests.m */; };
-		A52B93C61F1F286B00DBDE3C /* JhtVerificationCodeViewSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A52B93C51F1F286B00DBDE3C /* JhtVerificationCodeViewSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A5203A051F7CEA2200272F6F /* JhtVerificationCodeView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JhtVerificationCodeView.framework; sourceTree = "<group>"; };
 		A52B938D1F1F284400DBDE3C /* VerificationCodeBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerificationCodeBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52B93911F1F284400DBDE3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A52B93931F1F284400DBDE3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,8 +53,6 @@
 		A52B93B11F1F284500DBDE3C /* VerificationCodeBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerificationCodeBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52B93B51F1F284500DBDE3C /* VerificationCodeBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerificationCodeBoxUITests.m; sourceTree = "<group>"; };
 		A52B93B71F1F284500DBDE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A52B93C41F1F286B00DBDE3C /* JhtVerificationCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JhtVerificationCodeView.h; sourceTree = "<group>"; };
-		A52B93C51F1F286B00DBDE3C /* JhtVerificationCodeViewSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = JhtVerificationCodeViewSDK.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A52B93C61F1F286B00DBDE3C /* JhtVerificationCodeViewSDK.a in Frameworks */,
+				A5203A071F7CEA2D00272F6F /* JhtVerificationCodeView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,13 +81,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5203A061F7CEA2D00272F6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A52B93841F1F284400DBDE3C = {
 			isa = PBXGroup;
 			children = (
+				A5203A051F7CEA2200272F6F /* JhtVerificationCodeView.framework */,
 				A52B938F1F1F284400DBDE3C /* VerificationCodeBox */,
 				A52B93A91F1F284500DBDE3C /* VerificationCodeBoxTests */,
 				A52B93B41F1F284500DBDE3C /* VerificationCodeBoxUITests */,
 				A52B938E1F1F284400DBDE3C /* Products */,
+				A5203A061F7CEA2D00272F6F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,7 +117,6 @@
 				A52B93941F1F284400DBDE3C /* AppDelegate.m */,
 				A52B93961F1F284400DBDE3C /* ViewController.h */,
 				A52B93971F1F284400DBDE3C /* ViewController.m */,
-				A52B93C31F1F286B00DBDE3C /* JhtVerificationCodeViewSDK */,
 				A52B93991F1F284400DBDE3C /* Main.storyboard */,
 				A52B939C1F1F284400DBDE3C /* Assets.xcassets */,
 				A52B939E1F1F284400DBDE3C /* LaunchScreen.storyboard */,
@@ -143,15 +150,6 @@
 				A52B93B71F1F284500DBDE3C /* Info.plist */,
 			);
 			path = VerificationCodeBoxUITests;
-			sourceTree = "<group>";
-		};
-		A52B93C31F1F286B00DBDE3C /* JhtVerificationCodeViewSDK */ = {
-			isa = PBXGroup;
-			children = (
-				A52B93C41F1F286B00DBDE3C /* JhtVerificationCodeView.h */,
-				A52B93C51F1F286B00DBDE3C /* JhtVerificationCodeViewSDK.a */,
-			);
-			path = JhtVerificationCodeViewSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -442,14 +440,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BY48QUJK83;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/JhtVerificationCodeView.framework/Headers";
 				INFOPLIST_FILE = VerificationCodeBox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/VerificationCodeBox/JhtVerificationCodeViewSDK",
+					"$(PROJECT_DIR)/JhtVerificationCodeView.framework",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = VerificationCodeBox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VerificationCodeBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -459,14 +462,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BY48QUJK83;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/JhtVerificationCodeView.framework/Headers";
 				INFOPLIST_FILE = VerificationCodeBox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/VerificationCodeBox/JhtVerificationCodeViewSDK",
+					"$(PROJECT_DIR)/JhtVerificationCodeView.framework",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = VerificationCodeBox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VerificationCodeBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
