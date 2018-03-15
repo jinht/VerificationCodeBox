@@ -23,7 +23,7 @@ verificationCodeView.endEditBlcok = ^(NSString *text) {
 #### 2. 选配项 ：根据需求做相关property的配置
 ```oc
 #pragma mark optional
-/** 样式
+/** 展示 类型
  *  default：VerificationCodeViewType_Custom
  */
 @property (nonatomic, assign) JhtVerificationCodeViewType codeViewType;
