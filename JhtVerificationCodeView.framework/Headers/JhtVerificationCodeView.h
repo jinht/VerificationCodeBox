@@ -11,11 +11,11 @@
 
 #import <UIKit/UIKit.h>
 
-/** 样式 */
+/** 展示 类型 */
 typedef NS_ENUM(NSUInteger, JhtVerificationCodeViewType) {
-    // 普通样式
-    VerificationCodeViewType_Custom,
-    // 密码风格
+    // normal type
+    VerificationCodeViewType_Normal,
+    // secret type
     VerificationCodeViewType_Secret
 };
 
@@ -23,7 +23,7 @@ typedef NS_ENUM(NSUInteger, JhtVerificationCodeViewType) {
 /** 验证码校验框 */
 @interface JhtVerificationCodeView : UIView
 /** 输入验证码满后发送的通知名 */
-extern const NSString *KVFCVInputFullNotificationKey;
+extern const NSString *KVCVInputFullNotificationKey;
 
 #pragma mark - property
 #pragma mark required
@@ -32,7 +32,7 @@ extern const NSString *KVFCVInputFullNotificationKey;
 
 
 #pragma mark optional
-/** 样式
+/** 展示 类型
  *	default：VerificationCodeViewType_Custom
  */
 @property (nonatomic, assign) JhtVerificationCodeViewType codeViewType;

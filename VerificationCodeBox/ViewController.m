@@ -35,7 +35,7 @@
                 // 边框（每个格子的框）
                 verificationCodeView.hasBoder = YES;
                 verificationCodeView.boderColor = [UIColor redColor];
-                // 输入风格
+                // 展示 类型
                 verificationCodeView.codeViewType = VerificationCodeViewType_Secret;
                 
                 break;
@@ -46,8 +46,8 @@
                 verificationCodeView.hasUnderLine = YES;
                 verificationCodeView.underLineColor = [UIColor greenColor];
                 verificationCodeView.isFlashing_NoInput = YES;
-                // 输入风格
-                verificationCodeView.codeViewType = VerificationCodeViewType_Custom;
+                // 展示 类型
+                verificationCodeView.codeViewType = VerificationCodeViewType_Normal;
                 
                 break;
             }
