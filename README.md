@@ -12,7 +12,20 @@
      
      
 ### how to use
-#### 1. 简单的初始化：快速集成做这些就够了
+### 1. podfile 
+```oc
+platform:ios, '8.0'
+
+target 'VerificationCodeBox' do
+
+pod 'JhtVerificationCodeBox', '~> 1.0.0'
+        
+end
+```
+
+
+
+#### 2. 简单的初始化：快速集成做这些就够了
 ```oc
 JhtVerificationCodeView *verificationCodeView = [[JhtVerificationCodeView alloc] initWithFrame:CGRectMake(40, 20 + 40 + 100 * i, CGRectGetWidth(self.view.frame) - 80, 60)];
 verificationCodeView.endEditBlcok = ^(NSString *text) {
@@ -20,7 +33,8 @@ verificationCodeView.endEditBlcok = ^(NSString *text) {
 };
 ```
 
-#### 2. 选配项 ：根据需求做相关property的配置
+
+#### 3. 选配项 ：根据需求做相关property的配置
 ```oc
 #pragma mark optional
 /** 展示 类型
@@ -71,7 +85,8 @@ verificationCodeView.endEditBlcok = ^(NSString *text) {
 @property (nonatomic, assign) BOOL isClearWhenInputFull;
 ```
 
-#### 3. 常用方法说明
+
+#### 4. 常用方法说明
 ```oc
 /** 改变所有已输入验证码的颜色（通常在输入验证码错误的情况下用到）
  *  scenes：验证码输入有误变色
@@ -83,7 +98,7 @@ verificationCodeView.endEditBlcok = ^(NSString *text) {
 [verificationCodeView changeAllAlreadyInputTextColorWithColor:col hasShakeAndClear:YES];
 ```
 
-* 具体使用详见demo
+* 具体使用详见demo（使用demo之前请先 **pod install** ）
 
 
 ### Remind
