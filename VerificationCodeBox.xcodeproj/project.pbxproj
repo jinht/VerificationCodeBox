@@ -7,15 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A5203A071F7CEA2D00272F6F /* JhtVerificationCodeView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5203A051F7CEA2200272F6F /* JhtVerificationCodeView.framework */; };
+		2CA7A14BFD2AC2A4E24BCB29 /* libPods-VerificationCodeBox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F38C3AE30AD167BF67C6CB3A /* libPods-VerificationCodeBox.a */; };
 		A52B93921F1F284400DBDE3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B93911F1F284400DBDE3C /* main.m */; };
 		A52B93951F1F284400DBDE3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B93941F1F284400DBDE3C /* AppDelegate.m */; };
 		A52B93981F1F284400DBDE3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B93971F1F284400DBDE3C /* ViewController.m */; };
 		A52B939B1F1F284400DBDE3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52B93991F1F284400DBDE3C /* Main.storyboard */; };
 		A52B939D1F1F284400DBDE3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52B939C1F1F284400DBDE3C /* Assets.xcassets */; };
 		A52B93A01F1F284400DBDE3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52B939E1F1F284400DBDE3C /* LaunchScreen.storyboard */; };
-		A52B93AB1F1F284500DBDE3C /* VerificationCodeBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B93AA1F1F284500DBDE3C /* VerificationCodeBoxTests.m */; };
-		A52B93B61F1F284500DBDE3C /* VerificationCodeBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B93B51F1F284500DBDE3C /* VerificationCodeBoxUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A5203A051F7CEA2200272F6F /* JhtVerificationCodeView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JhtVerificationCodeView.framework; sourceTree = "<group>"; };
+		4378CAB2E8D7FD3D9693A4C9 /* Pods-VerificationCodeBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerificationCodeBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VerificationCodeBox/Pods-VerificationCodeBox.debug.xcconfig"; sourceTree = "<group>"; };
+		6DB4642F8C31EDB7A6B6BA64 /* Pods-VerificationCodeBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerificationCodeBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-VerificationCodeBox/Pods-VerificationCodeBox.release.xcconfig"; sourceTree = "<group>"; };
 		A52B938D1F1F284400DBDE3C /* VerificationCodeBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerificationCodeBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52B93911F1F284400DBDE3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A52B93931F1F284400DBDE3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,11 +47,8 @@
 		A52B939F1F1F284400DBDE3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A52B93A11F1F284400DBDE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A52B93A61F1F284500DBDE3C /* VerificationCodeBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerificationCodeBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A52B93AA1F1F284500DBDE3C /* VerificationCodeBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerificationCodeBoxTests.m; sourceTree = "<group>"; };
-		A52B93AC1F1F284500DBDE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A52B93B11F1F284500DBDE3C /* VerificationCodeBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerificationCodeBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A52B93B51F1F284500DBDE3C /* VerificationCodeBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerificationCodeBoxUITests.m; sourceTree = "<group>"; };
-		A52B93B71F1F284500DBDE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38C3AE30AD167BF67C6CB3A /* libPods-VerificationCodeBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VerificationCodeBox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5203A071F7CEA2D00272F6F /* JhtVerificationCodeView.framework in Frameworks */,
+				2CA7A14BFD2AC2A4E24BCB29 /* libPods-VerificationCodeBox.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,9 +77,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		689BB7B03B1E3C103EC3DFD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4378CAB2E8D7FD3D9693A4C9 /* Pods-VerificationCodeBox.debug.xcconfig */,
+				6DB4642F8C31EDB7A6B6BA64 /* Pods-VerificationCodeBox.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A5203A061F7CEA2D00272F6F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F38C3AE30AD167BF67C6CB3A /* libPods-VerificationCodeBox.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -91,12 +97,10 @@
 		A52B93841F1F284400DBDE3C = {
 			isa = PBXGroup;
 			children = (
-				A5203A051F7CEA2200272F6F /* JhtVerificationCodeView.framework */,
 				A52B938F1F1F284400DBDE3C /* VerificationCodeBox */,
-				A52B93A91F1F284500DBDE3C /* VerificationCodeBoxTests */,
-				A52B93B41F1F284500DBDE3C /* VerificationCodeBoxUITests */,
 				A52B938E1F1F284400DBDE3C /* Products */,
 				A5203A061F7CEA2D00272F6F /* Frameworks */,
+				689BB7B03B1E3C103EC3DFD4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,24 +138,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A52B93A91F1F284500DBDE3C /* VerificationCodeBoxTests */ = {
-			isa = PBXGroup;
-			children = (
-				A52B93AA1F1F284500DBDE3C /* VerificationCodeBoxTests.m */,
-				A52B93AC1F1F284500DBDE3C /* Info.plist */,
-			);
-			path = VerificationCodeBoxTests;
-			sourceTree = "<group>";
-		};
-		A52B93B41F1F284500DBDE3C /* VerificationCodeBoxUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A52B93B51F1F284500DBDE3C /* VerificationCodeBoxUITests.m */,
-				A52B93B71F1F284500DBDE3C /* Info.plist */,
-			);
-			path = VerificationCodeBoxUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,6 +145,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A52B93BA1F1F284500DBDE3C /* Build configuration list for PBXNativeTarget "VerificationCodeBox" */;
 			buildPhases = (
+				63B82AB8FFCECA8302876202 /* [CP] Check Pods Manifest.lock */,
 				A52B93891F1F284400DBDE3C /* Sources */,
 				A52B938A1F1F284400DBDE3C /* Frameworks */,
 				A52B938B1F1F284400DBDE3C /* Resources */,
@@ -219,7 +206,7 @@
 				TargetAttributes = {
 					A52B938C1F1F284400DBDE3C = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = BY48QUJK83;
+						DevelopmentTeam = 8C4D9692Z4;
 						ProvisioningStyle = Automatic;
 					};
 					A52B93A51F1F284500DBDE3C = {
@@ -283,6 +270,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63B82AB8FFCECA8302876202 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VerificationCodeBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A52B93891F1F284400DBDE3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -298,7 +306,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A52B93AB1F1F284500DBDE3C /* VerificationCodeBoxTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +313,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A52B93B61F1F284500DBDE3C /* VerificationCodeBoxUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,9 +443,10 @@
 		};
 		A52B93BB1F1F284500DBDE3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4378CAB2E8D7FD3D9693A4C9 /* Pods-VerificationCodeBox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BY48QUJK83;
+				DEVELOPMENT_TEAM = 8C4D9692Z4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -459,9 +466,10 @@
 		};
 		A52B93BC1F1F284500DBDE3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DB4642F8C31EDB7A6B6BA64 /* Pods-VerificationCodeBox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BY48QUJK83;
+				DEVELOPMENT_TEAM = 8C4D9692Z4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
