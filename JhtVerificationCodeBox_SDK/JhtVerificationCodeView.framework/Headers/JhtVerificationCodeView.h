@@ -20,10 +20,11 @@ typedef NS_ENUM(NSUInteger, JhtVerificationCodeViewType) {
 };
 
 
+/** 输入验证码 满位后 发送的 通知名 */
+extern const NSString *Jht_InputFull_NotiKey;
+
 /** 验证码校验框 */
 @interface JhtVerificationCodeView : UIView
-/** 输入验证码满后发送的通知名 */
-extern const NSString *KVCVInputFullNotificationKey;
 
 #pragma mark - property
 #pragma mark required
@@ -33,66 +34,70 @@ extern const NSString *KVCVInputFullNotificationKey;
 
 #pragma mark optional
 /** 展示 类型
- *	default：VerificationCodeViewType_Custom
+ *	default: VerificationCodeViewType_Custom
  */
 @property (nonatomic, assign) JhtVerificationCodeViewType codeViewType;
 
 /** 是否需要边框（每个格子的框）
- *	default：NO
+ *	default: NO
  */
 @property (nonatomic, assign) BOOL hasBoder;
 /** 边框颜色（hasBoder = YES）
- *	default：[UIColor grayColor]
+ *	default: [UIColor grayColor]
  */
 @property (nonatomic, strong) UIColor *boderColor;
 
 /** 验证码总数
- *	default：6
+ *	default: 6
  */
 @property (nonatomic, assign) NSInteger total;
 
 /** 文字颜色
- *	default：[UIColor blackColor]
+ *	default: [UIColor blackColor]
  */
 @property (nonatomic, strong) UIColor *textColor;
 /** 文字UIFont
- *	default：[UIFont boldSystemFontOfSize:17]
+ *	default: [UIFont boldSystemFontOfSize:17]
  */
 @property (nonatomic, strong) UIFont *textFont;
 
 /** 是否需要占位符下划线 
- *	default：NO
+ *	default: NO
  */
 @property (nonatomic, assign) BOOL hasUnderLine;
 /** 占位符下划线颜色（hasUnderLine = YES）
- *	default：[UIColor grayColor]
+ *	default: [UIColor grayColor]
  */
 @property (nonatomic, strong) UIColor *underLineColor;
 
 /** 未输入状态下占位符下划线是否闪烁
- *	default：NO
+ *	default: NO
  */
 @property (nonatomic, assign) BOOL isFlashing_NoInput;
 
 /** 是否需要输入位数满后清空
- *	default：NO
+ *	default: NO
  */
 @property (nonatomic, assign) BOOL isClearWhenInputFull;
+
+/** 下划线 动画时间
+ *  default: 0.6
+ */
+@property (nonatomic, assign) CGFloat underLineAnimationDuration;
 
 
 
 #pragma mark - Public Method
 /** becomeFirstResponder */
 - (void)Jht_BecomeFirstResponder;
-
 /** resignFirstResponder */
 - (void)Jht_ResignFirstResponder;
 
 /** 改变所有已输入验证码的颜色（通常在输入验证码错误的情况下用到）
- *	color：要改变的颜色
- *	hasShakeAndClear：是否需要抖动 && 清空
+ *	color: 要改变的颜色
+ *	hasShakeAndClear: 是否需要抖动 && 清空
  */
-- (void)changeAllAlreadyInputTextColorWithColor:(UIColor *)color hasShakeAndClear:(BOOL)hasShakeAndClear;
+- (void)changeAllAlreadyInputTextColor:(UIColor *)color hasShakeAndClear:(BOOL)hasShakeAndClear;
 
 
 @end

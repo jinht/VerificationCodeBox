@@ -24,7 +24,6 @@
 
 
 #pragma mark - UI
-/** 创建UI界面 */
 - (void)createUI {
     for (NSInteger i = 0; i < 2; i ++) {
         JhtVerificationCodeView *verificationCodeView = [[JhtVerificationCodeView alloc] initWithFrame:CGRectMake(40, 20 + 60 + 100 * i, CGRectGetWidth(self.view.frame) - 80, 60)];
@@ -84,10 +83,10 @@
     UIColor *col = [UIColor orangeColor];;
     if (btn.tag % 2 == 0) {
         // 变色 && 震动 && 清空
-        [view changeAllAlreadyInputTextColorWithColor:col hasShakeAndClear:YES];
+        [view changeAllAlreadyInputTextColor:col hasShakeAndClear:YES];
     } else {
         // 变色
-        [view changeAllAlreadyInputTextColorWithColor:col hasShakeAndClear:NO];
+        [view changeAllAlreadyInputTextColor:col hasShakeAndClear:NO];
     }
 }
 
