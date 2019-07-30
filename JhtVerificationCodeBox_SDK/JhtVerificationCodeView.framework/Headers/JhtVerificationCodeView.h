@@ -86,7 +86,6 @@ extern const NSString *Jht_InputFull_NotiKey;
 @property (nonatomic, assign) CGFloat underLineAnimationDuration;
 
 
-
 #pragma mark - Public Method
 /** becomeFirstResponder */
 - (void)Jht_BecomeFirstResponder;
@@ -98,6 +97,11 @@ extern const NSString *Jht_InputFull_NotiKey;
  *	hasShakeAndClear: 是否需要抖动 && 清空
  */
 - (void)changeAllAlreadyInputTextColor:(UIColor *)color hasShakeAndClear:(BOOL)hasShakeAndClear;
+
+/** update keyBoard type
+ *  不建议使用非 UIKeyboardTypeNumberPad
+ */
+- (void)updateKeyBoardType:(UIKeyboardType)type;
 
 
 @end
