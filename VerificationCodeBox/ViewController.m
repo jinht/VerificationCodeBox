@@ -22,7 +22,6 @@
 }
 
 
-
 #pragma mark - UI
 - (void)createUI {
     for (NSInteger i = 0; i < 2; i ++) {
@@ -91,7 +90,6 @@
 }
 
 
-
 #pragma mark - UIResponder
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     CGPoint point = [[touches anyObject] locationInView:self.view];
@@ -109,19 +107,6 @@
     if (!isEndEdit) {
         [self.view endEditing:YES];
     }
-}
-
-
-
-
-
-
-
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 

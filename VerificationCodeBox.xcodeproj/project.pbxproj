@@ -193,7 +193,7 @@
 				TargetAttributes = {
 					A52B938C1F1F284400DBDE3C = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 8C4D9692Z4;
+						DevelopmentTeam = Q67TW3T8PL;
 						ProvisioningStyle = Automatic;
 					};
 					A52B93A51F1F284500DBDE3C = {
@@ -215,6 +215,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -411,7 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8C4D9692Z4;
+				DEVELOPMENT_TEAM = Q67TW3T8PL;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -434,7 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8C4D9692Z4;
+				DEVELOPMENT_TEAM = Q67TW3T8PL;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

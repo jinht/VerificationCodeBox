@@ -31,7 +31,6 @@ extern const NSString *Jht_InputFull_NotiKey;
 /** 回调 输入的验证码 */
 @property (nonatomic, copy) void(^editBlcok)(NSString *text);
 
-
 #pragma mark optional
 /** 展示 类型
  *	default: VerificationCodeViewType_Custom

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     
     s.name                       = 'JhtVerificationCodeBox'
-    s.version                    = '1.0.3'
+    s.version                    = '1.0.4'
     s.summary                    = '验证码 && 密码 校验View'
     s.homepage                   = 'https://github.com/jinht/VerificationCodeBox'
     s.license                    = { :type => 'MIT', :file => 'LICENSE' }
